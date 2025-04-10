@@ -2,7 +2,7 @@
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
   --color-accent: #ff3400;
-  --color-heading: #1b0760;
+  --color-heading: #15054e;
   --color-body: #918ca4;
 }
 
@@ -81,5 +81,70 @@ a {
 @media screen and (min-width: 1024px) {
   .link-arrow {
     font-size: 1.5rem;
+  }
+}
+
+/* Badges */
+
+.badge {
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  white-space: nowrap;
+  font-size: 2rem;
+}
+
+.badge--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.badge--seconday {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.badge--small {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.5rem;
+  }
+
+  .badge--small {
+    font-size: 1.2rem;
+  }
+}
+
+/* Lists */
+
+.list {
+  padding-right: 0;
+  list-style: none;
+  color: var(--color-heading);
+}
+
+.list--inline .list--item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.list--tick {
+  background-image: url(../Images/tick.svg);
+  background-repeat: no-repeat;
+  background-size: 0.8em;
+  padding-left: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+.list--inline .list__i {
+  padding-left: rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .list--tick {
+    padding-left: 2rem;
   }
 }
