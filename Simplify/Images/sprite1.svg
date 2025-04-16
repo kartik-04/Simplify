@@ -164,10 +164,10 @@
     <title>underline [#1437]</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-      <g id="Dribbble-Light-Preview" transform="translate(-179.000000, -569.000000)" fill="#000000">
+    <g id="Page-1"  fill="none" fill-rule="evenodd">
+      <g stroke-width="0.25%" stroke="currentColor" id="Dribbble-Light-Preview" transform="translate(-179.000000, -569.000000)" fill="var(--color-secondary)">
         <g id="icons" transform="translate(56.000000, 160.000000)">
-          <polygon id="underline" points="123 411 144 411 144 409 123 409"></polygon>
+          <polygon  id="underline" points="123 411 144 411 144 409 123 409"></polygon>
         </g>
       </g>
     </g>
