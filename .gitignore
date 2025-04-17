@@ -1,2 +1,5 @@
 components/hello.html
 components/hellowAgain.html
+Simplify/node_modules/
+**/.DS_Store
+Simplify/package-lock.json
