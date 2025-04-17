@@ -627,6 +627,10 @@ a {
   transition: all 0.3s;
 }
 
+.callout {
+  transform: translateY(5rem);
+}
+
 .collapsible--expanded .collapsible__chevron {
   transform: rotate(0);
 }
