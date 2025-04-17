@@ -151,10 +151,6 @@ a {
   margin-bottom: 1rem;
 }
 
-.list--inline .list__i {
-  padding-left: rem;
-}
-
 @media screen and (min-width: 1024px) {
   .list--tick {
     padding-left: 2rem;
@@ -399,10 +395,6 @@ a {
   right: 5%;
 }
 
-.plan--popular:hover {
-  transform: scale(1.15);
-}
-
 @media screen and (min-width: 1024px) {
   .plan--popular {
     transform: scale(1.1);
@@ -620,7 +612,7 @@ a {
   border-radius: 50%;
 }
 
-.collpasible__content {
+.collapsible__content {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
@@ -635,7 +627,7 @@ a {
   transform: rotate(0);
 }
 
-.collapsible--expanded .collpasible__content {
+.collapsible--expanded .collapsible__content {
   max-height: 100vh;
   opacity: 1;
 }
@@ -892,6 +884,7 @@ a {
 .footer__list {
   padding: 0;
 }
+
 @media screen and (min-width: 768px) {
   .footer {
     font-size: 1.5rem;
