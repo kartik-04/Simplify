@@ -20,13 +20,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="CSS/normalize.css" />
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="Images/logo.svg" alt="" /></a>
+        <a aria-label="Simplify" class="nav__brand" href="/"><img src="Images/logo.svg" alt="" /></a>
         <svg class="icon nav__toggler">
           <use xlink:href="Images/sprite1.svg#menu"></use>
         </svg>
@@ -63,6 +62,7 @@
       </header>
       <div class="input-group">
         <input
+          aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter Domain name here...."
