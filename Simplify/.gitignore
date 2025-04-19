@@ -5,4 +5,4 @@ Simplify/.cache/
 node_modules/
 dist/
 Simplify/package.json
-.parcel-cache/
+.parcel-cache
