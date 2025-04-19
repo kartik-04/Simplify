@@ -2,7 +2,6 @@ Simplify/node_modules/
 **/.DS_Store
 Simplify/package-lock.json
 Simplify/.cache/
-Simplify/dist/
 node_modules/
 dist/
 Simplify/package.json
