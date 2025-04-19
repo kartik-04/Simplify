@@ -1,8 +1,5 @@
 Simplify/node_modules/
 **/.DS_Store
-Simplify/package-lock.json
-Simplify/.cache/
 node_modules/
 dist/
-Simplify/package.json
 .parcel-cache
